@@ -1,4 +1,5 @@
 mod ownership_practice;
+mod datatypes_practice;
 
 fn add(a: i32, b: i32) -> i32 {
     a + b
@@ -66,13 +67,18 @@ fn main() {
     };
     println!("Person: {}, Age: {}", person.name, person.age);
 
-    // 🦀 NEW: Ownership and Borrowing Practice
-    println!("\n{}", "=".repeat(50));
-    println!("🦀 OWNERSHIP & BORROWING PRACTICE");
-    println!("{}", "=".repeat(50));
+    // 🦀 DATATYPES PRACTICE SESSION
+    println!("\n{}", "=".repeat(60));
+    println!("🦀 RUST DATA TYPES PRACTICE SESSION");
+    println!("{}", "=".repeat(60));
     
-    ownership_practice::ownership_basics();
-    ownership_practice::borrowing_basics();
-    ownership_practice::slice_practice();
-    ownership_practice::practice_exercises();
+    datatypes_practice::run_all_practices();
+    
+    
+    // Uncomment below to practice ownership instead:
+    // ownership_practice::ownership_basics();
+    // ownership_practice::borrowing_basics();
+    // ownership_practice::slice_practice();
+    // ownership_practice::practice_exercises();
+    
 }
