@@ -6,7 +6,7 @@ This is a simple guessing game written in Rust. The program generates a random n
 
 1.  **Clone the repository:**
     ```bash
-    git clone https://github.com/yJanmesh23/guessing_game.git
+    git clone https://github.com/Janmesh23/guessing_game.git
     ```
 2.  **Navigate to the project directory:**
     ```bash
